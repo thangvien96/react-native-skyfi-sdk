@@ -1,0 +1,1 @@
+{"version":3,"names":["VikkiSDK","VikkiSDKProvider","useVikkiSDKContext"],"sourceRoot":"..\\..\\src","sources":["index.tsx"],"mappings":";;AAAA,OAAOA,QAAQ,MAAM,eAAY;AACjC,SAASC,gBAAgB,EAAEC,kBAAkB,QAAQ,8BAA2B;AAGhF;AACA,SAASF,QAAQ,EAAEC,gBAAgB,EAAEC,kBAAkB;;AAEvD;;AAGA;AACA,eAAeF,QAAQ","ignoreList":[]}

@@ -32,13 +32,10 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-my-vikki-sdk-example",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
-    "prepare": "bob build",
-    "typecheck": "tsc",
+    "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "release": "release-it --only-version",
-    "test": "jest"
+    "build": "bob build",
+    "prepack": "bob build"
   },
   "keywords": [
     "react-native",

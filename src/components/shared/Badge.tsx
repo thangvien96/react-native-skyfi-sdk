@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import type { ViewStyle, TextStyle } from 'react-native';
+import type { ViewStyle } from 'react-native';
 
 interface BadgeProps {
   text: string;

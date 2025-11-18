@@ -1,7 +1,7 @@
 import React from 'react';
-import { Image, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
+import { Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-const { width } = Dimensions.get('window');
+// const { width } = Dimensions.get('window');
 
 const Banner: React.FC = () => {
   const handleBannerPress = () => {

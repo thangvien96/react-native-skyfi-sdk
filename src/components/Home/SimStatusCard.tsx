@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
-import { useVikkiSDKContext } from '../../context/VikkiSDKContext';
+import { View, Text, StyleSheet } from 'react-native';
+// import { useVikkiSDKContext } from '../../context/VikkiSDKContext';
 import Button from '../shared/Button';
 
 const SimStatusCard: React.FC = () => {
-  const { simStatus } = useVikkiSDKContext();
+  // const { simStatus } = useVikkiSDKContext();
 
   const handleActivateSim = () => {
     console.log('Activate SIM');

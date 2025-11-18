@@ -1,0 +1,1 @@
+{"version":3,"file":"PackageCard.d.ts","sourceRoot":"","sources":["../../../../../src/components/DataPackages/PackageCard.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAE1B,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,aAAa,CAAC;AAI/C,UAAU,gBAAgB;IACxB,OAAO,EAAE,WAAW,CAAC;CACtB;AAED,QAAA,MAAM,WAAW,EAAE,KAAK,CAAC,EAAE,CAAC,gBAAgB,CAwD3C,CAAC;AA4EF,eAAe,WAAW,CAAC"}

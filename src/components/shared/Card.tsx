@@ -1,7 +1,7 @@
 import React from 'react';
 import type { ReactNode } from 'react';
 import { View, StyleSheet } from 'react-native';
-import type { ViewStyle, TextStyle } from 'react-native';
+import type { ViewStyle } from 'react-native';
 
 interface CardProps {
   children: ReactNode;
