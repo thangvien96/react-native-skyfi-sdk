@@ -1,5 +1,12 @@
-import MyVikkiSdk from './NativeMyVikkiSdk';
+import VikkiSDK from './VikkiSDK';
+import { VikkiSDKProvider, useVikkiSDKContext } from './context/VikkiSDKContext';
+import type { VikkiSDKConfig, SimStatus, DataPackage } from './types';
 
-export function multiply(a: number, b: number): number {
-  return MyVikkiSdk.multiply(a, b);
-}
+// Export components
+export { VikkiSDK, VikkiSDKProvider, useVikkiSDKContext };
+
+// Export types
+export type { VikkiSDKConfig, SimStatus, DataPackage };
+
+// Default export
+export default VikkiSDK;
